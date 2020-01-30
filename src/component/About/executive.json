@@ -1,0 +1,40 @@
+{
+    "data": [
+        {
+            "avatar_url": "https://zerodha.com/static/images/Austin.jpg",
+            "name": "Austin Prakesh",
+            "position": "Director - Strategy",
+            "biography": "Austin is a successful self-made entrepreneur from Singapore. His area of specialty revolves around helping organisations including grow by optimizing revenue streams and creating growth strategies. He is a boxing enthusiast and loves collecting exquisite watches."
+        },
+        {
+            "avatar_url": "https://zerodha.com/static/images/Nikhil.jpg",
+            "name": "Nikhil Kamath",
+            "position": "Co-founder & CIO",
+            "biography": "Nikhil is an astute investor with over a decade of experience and an impeccable track record, who specializes in modelling sophisticated long term investment strategies and portfolios. He heads investments and risk management at Zerodha. An avid reader, he always appreciates a good game of chess."
+        },
+        {
+            "avatar_url": "https://zerodha.com/static/images/Kailash.jpg",
+            "name": "Dr. Kailash Nadh",
+            "position": "CTO",
+            "biography": "Kailash has a PhD in Artificial Intelligence & Computational Linguistics, and is the brain behind all our technology and products. He has been a developer from his adolescence and continues to write code every day."
+        },
+        {
+            "avatar_url": "https://zerodha.com/static/images/Venu.jpg",
+            "name": "Venu Madhav",
+            "position": "Chief of Operations",
+            "biography": "Venu is the backbone of Zerodha taking care of operations and ensuring that we are compliant to rules and regulations. He has over a dozen certifications in financial markets and is also proficient in technical analysis. Workouts, cycling, and adventuring is what he does outside of Zerodha."
+        },
+        {
+            "avatar_url": "https://zerodha.com/static/images/Hanan.jpg",
+            "name": "Hanan Delvi",
+            "position": "Chief of Client Relations",
+            "biography": "We take pride in the way we support our clients, and Hanan is responsible for this with his never ending flow of energy. He is the man behind many of our support initiatives that have helped us stay ahead of the game. A free thinker, Hanan can be seen posing as one in his free time."
+        },
+        {
+            "avatar_url": "https://zerodha.com/static/images/Seema.jpg",
+            "name": "Seema Patil",
+            "position": "Chief of Quality",
+            "biography": "Seema worked with an international airline business for over 6 years before joining us. She uses her experience of liasing with people from various backgrounds to ensure that our ever expanding support team maintains highest quality. She is an extremely disciplined fitness enthusiast."
+        }
+    ]
+}
