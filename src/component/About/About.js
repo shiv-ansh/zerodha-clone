@@ -1,6 +1,7 @@
 import React from 'react';
 import Styles from './about.module.css';
 import Profile from './Profile';
+import styles from './about.module.css';
 
 class About extends React.Component {
     constructor(props) {
@@ -11,7 +12,7 @@ class About extends React.Component {
     render() {
 
         return (
-            <div className="container  my-5">
+            <div className={`container ${styles.marginTop}`}>
                 <div className="m-1 m-lg-5 text-center">
                     <h1 className="m-1 m-lg-5 h2">We pioneered the discount broking model in India.
                   <br />

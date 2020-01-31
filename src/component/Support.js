@@ -1,16 +1,13 @@
 import React from 'react';
+import styles from './component.module.css';
 
-class Support extends React.Component {
-    constructor(props) {
-        super(props);
-    }
+const Support = () => {
 
-    render() {
-        return (
-            <div></div>
-        )
-    }
-
+    return (
+        <div className={`${styles.marginTop}`}>
+            <h1 className="text-center">Under Construction</h1>
+        </div>
+    )
 }
 
 

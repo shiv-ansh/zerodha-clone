@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 class Navbar extends React.Component {
     constructor(props) {
@@ -7,40 +8,34 @@ class Navbar extends React.Component {
 
     render() {
         return (
-            <div>
-                <nav className="navbar navbar-expand-lg navbar-light bg-white">
-                    <a className="navbar-brand" href="#"><img src="https://zerodha.com/static/images/logo.svg" style={{ height: "25px", width: "250px" }}></img></a>
+            <div className="m-5">
+                <nav className="navbar navbar-expand-lg navbar-light bg-white fixed-top border-bottom">
+                    <Link className="navbar-brand" to="/"><img src="https://zerodha.com/static/images/logo.svg" style={{ height: "25px", width: "250px" }}></img></Link>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
 
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav mr-auto">
-                            <li className="nav-item active">
-                                <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+                        <ul className="navbar-nav ml-auto">
+                            <li className="nav-item  m-2">
+                                <Link className="nav-link" to="/component/About/About">About</Link>
                             </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">Link</a>
+                            <li className="nav-item m-2">
+                                <Link className="nav-link" to="/component/Product">Product</Link>
                             </li>
-                            <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Dropdown
-        </a>
-                                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a className="dropdown-item" href="#">Action</a>
-                                    <a className="dropdown-item" href="#">Another action</a>
-                                    <div className="dropdown-divider"></div>
-                                    <a className="dropdown-item" href="#">Something else here</a>
-                                </div>
+                            <li className="nav-item m-2">
+                                <Link className="nav-link" to="/component/Pricing">Pricing</Link>
                             </li>
-                            <li className="nav-item">
-                                <a className="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            <li className="nav-item m-2">
+                                <Link className="nav-link" to="/component/Support">Support</Link>
                             </li>
+                            <li className="nav-item m-2">
+                                <Link className=" btn btn-primary" to="/component/SignUp">Sign up</Link>
+                            </li>
+
+
                         </ul>
-                        <form className="form-inline my-2 my-lg-0">
-                            <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-                            <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                        </form>
+
                     </div>
                 </nav>
             </div>
