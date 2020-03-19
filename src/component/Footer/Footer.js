@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import FooterList from "./FooterList";
 class Footer extends Component {
 
     constructor(props) {
@@ -8,8 +8,8 @@ class Footer extends Component {
 
     render() {
         return (
-            <div className="border-top">
-                <div className="container ">
+            <div className="border-top ">
+                <div className="container mt-4">
                     <div className="row">
                         <div className="col-12 col-lg-3">
                             <img src="https://zerodha.com/static/images/logo.svg" style={{ height: 30, width: 150 }} />
@@ -17,7 +17,7 @@ class Footer extends Component {
                             <small>&copy; 2010 - 2020, Zerodha Broking Ltd.
                             <br />
                                 All rights reserved.
-                        </small>
+                           </small>
                             <div className="d-flex">
                                 <div className="m-2">
                                     <a href="#"><i className="fab fa-twitter fa-lg"></i></a>
@@ -34,7 +34,7 @@ class Footer extends Component {
 
                             </div>
                         </div>
-
+                        <FooterList />
                     </div>
 
                 </div>
