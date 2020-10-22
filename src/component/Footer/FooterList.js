@@ -40,7 +40,7 @@ class FooterList extends Component {
                         <li><h6>60 day challenge</h6></li>
                     </ul>
                 </div>
-           >
+
 
             </>
         )
